@@ -1,0 +1,64 @@
+body {
+    background-color: cadetblue;
+    font-family:      Calibri, Verdana, Arial;
+    font-size:        18px;
+}
+h1 {
+    font-family:      Verdana, Calibri, Arial;
+    color:            yellow;
+    background-color: #000;
+    margin:           20px 10px;
+    padding:          15px 0px;
+    text-align:       center;
+}
+div {
+    float: left;
+}
+fieldset {
+    border-radius: 10px;
+    border:        3px solid #333;
+    margin:        10px;
+    width:         300px;
+}
+legend {
+    font-family: Calibri, Arial;
+    padding:     0px 5px;
+    color:       brown;
+    font-weight: bold;
+    font-style:  italic;
+    font-size:   22px;
+}
+label {
+    font-weight: bold;
+}
+input {
+    border-radius:    10px;
+    padding:          5px 10px;
+    font-size:        18px;
+    background-color: azure;
+}
+span {
+    border-radius:    10px;
+    padding:          0px 10px;
+    font-size:        18px;
+    background-color: azure;
+}
+input:focus {
+    background-color: beige;
+    color:            brown;
+}
+button {
+    font-family:   Calibri, Verdana, Arial;
+    font-size:     20px;
+    border-radius: 10px 0px;
+    color:         #fff;
+}
+button, input {
+    border: 2px solid #000;
+}
+button.calc {
+    background-color: darkblue;
+}
+button.clear {
+    background-color: crimson;
+}
